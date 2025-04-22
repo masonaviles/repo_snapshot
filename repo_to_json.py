@@ -38,10 +38,11 @@ def build_json_structure(root_path):
 
             try:
                 with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                    preview = "".join([line for _, line in zip(range(MAX_PREVIEW_LINES), f)])
-                    file_info["preview"] = preview
+                    content = f.read()
+                    file_info["content"] = content
             except Exception as e:
                 file_info["error"] = str(e)
+
 
             folder["files"].append(file_info)
 
