@@ -18,14 +18,6 @@ It captures the folder structure, file names, file sizes, and a small preview of
 
 ---
 
-## Requirements
-
-- Python 3.6 or higher
-
-No external libraries are needed — only the Python Standard Library.
-
----
-
 ## Usage
 
 Navigate to the folder where you saved the script and run:
