@@ -26,19 +26,6 @@ No external libraries are needed — only the Python Standard Library.
 
 ---
 
-## Installation
-
-Clone this script into your project or download it manually.
-
-```bash
-git clone https://your-repo-url.git
-cd your-repo-folder
-```
-
-Or just download `repo_to_json.py` directly.
-
----
-
 ## Usage
 
 Navigate to the folder where you saved the script and run:
